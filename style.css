@@ -1,0 +1,163 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f1d63bbd;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background: linear-gradient(to right, #fda90c, #faea11);
+    color: rgb(0, 0, 0);
+    padding: 8px 18px;
+    text-align: left;
+}
+
+ul {
+    overflow: hidden;
+    list-style-type: none;
+    background-color: #ffa60093;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    float: right;
+  }
+
+li a {
+    color: #000000;
+    padding: 16px 18px;
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+  }
+
+li a:hover:not(.active) {
+    background-color: #ff4500;
+  }
+
+  .active {
+    background-color: #ffcc00;
+  }
+
+.slideshow img {
+    max-width: 100%;
+    vertical-align: middle;
+    float: left;
+}
+
+#gallery, #contact {
+    padding: 50px;
+    margin: auto;
+    gap: 20px;
+    text-align: center;
+}
+ 
+.gallery-tabs {
+    margin: 20px;
+}
+
+.tab {
+    background: #ff4500;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: none;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.tab:hover {
+    background: #ffcc00;
+}
+
+.gallery-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.gallery-content img {
+    width: 200px;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.gallery-content img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-icons img {
+    width: 50px;
+    margin: 10px;
+}
+
+{box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/6 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+  footer {
+    background: linear-gradient(to right, #ffcc00, #ff4500);
+    text-align: center;
+  }
